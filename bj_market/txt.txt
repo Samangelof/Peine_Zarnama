@@ -1,0 +1,6 @@
+https://developer.paypal.com/dashboard/
+
+
+input in approval_url(link):
+test_login
+test_password from account PayPal

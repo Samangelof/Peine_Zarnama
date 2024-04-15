@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bj"
+version = "0.1.0"
+description = "Техническое задание на разработку мобильного приложения (React Native) и API (Django Rest Framework) для маркетплейса товаров Beine Jarnama"
+authors = ["Samangelof"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.2"
+pillow = "^10.2.0"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.9"
+django-jazzmin = "^2.6.0"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.3.1"
+django-multiselectfield = "^0.1.12"
+channels = {extras = ["daphne"], version = "^4.0.0"}
+channels-redis = "^4.2.0"
+paypalrestsdk = "^1.13.3"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
